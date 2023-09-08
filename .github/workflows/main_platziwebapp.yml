@@ -23,7 +23,7 @@ jobs:
           include-prerelease: true
 
       - name: Restore
-        run: dotnet restore ./website
+        run: dotnet restore ./website/PlatziWebsite.csproj
 
       - name: Build with dotnet
         run: dotnet build --configuration Release
